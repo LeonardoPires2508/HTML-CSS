@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem HTML</h3>
+        <nav>
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>
+    </head>
+    <main>
+        <section>
+            <h3>Uso de Tags</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nostrum, voluptatum deserunt explicabo quo officiis! Culpa, earum eos placeat autem praesentium aut non numquam et, reprehenderit soluta nemo iure fugit quis dolorem enim vel quasi fuga ducimus dolorum omnis. Sed cupiditate temporibus esse earum quos maiores laboriosam ut nisi. Corporis.</p>
+        </section>
+        <section>
+            <h3>Uso de Tabelas</h3>
+            <table border = "1" cellpadding = "3" style="border-collapse:collapse">
+                <thead> <!--cabeçalho da tabela-->
+                    <tr>
+                        <th colspan="4"> Usuários do Sistema</th>
+                    </tr>
+                    <tr> <!--Table Row-->
+                        <th> Tipo </th>
+                        <th> Nome </th>
+                        <th> CPF </th>
+                        <th> Data Nascimento </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Funcionário</td>
+                        <td>Leonardo Pereira Pires</td>
+                        <td>657.826.583-04</td>
+                        <td>25/08/1982</td>
+                    </tr>
+                    <tr>
+                        <td>Sayure Vieira de Paiva</td>
+                        <td>054.000.000-04</td>
+                        <td>28/05/1995</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Dependente</td>
+                        <td>Théo Vieira Pires</td>
+                        <td>000.000.583-04</td>
+                        <td>10/08/2020</td>
+                    </tr>
+                    <tr>
+                        <td>Guilherme Martins Pires</td>
+                        <td>657.000.000-04</td>
+                        <td>16/02/2015</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+            <table border="1" cellpadding="4" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2">Célula 1-1</td>
+                    <td>Célula 1-3</td>
+                </tr>
+                <tr>
+                    <td>Célula 2-1</td>
+                    <td>Célula 2-2</td>
+                    <td>Célula 2-3</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <hr /> <!-- Horizontal Rule-->
+    <footer>
+        &copy; <!--simobolo copyrigth-->
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+
+</body>
+</html>
