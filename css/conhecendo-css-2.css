@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+}
+.my-button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 24px; /*Vertical e Horizontal*/
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.my-button:hover {
+    background-color: cadetblue;
+}
+.my-button-azul {
+    background-color: cornflowerblue;
+}
+.my-table {
+    width: 450px;
+    border-collapse: collapse ;
+    margin: auto;
+}
+.my-table td, .my-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.my-table th {
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: whitesmoke;
+}
+/*alternancia de cor - even é par 
+  alternancia de cor - odd é impar*/
+.my-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.my-table tr:hover {
+    background-color: #ddd;
+}
+.my-table td {
+    text-align: center; /*center, left, rigth e justify*/
+    height: 40px;
+}
+.my-form {
+    border-radius: 6px;
+    background-color: rgb(209, 207, 207);/*#f2f2f2*/
+    padding: 20px 16px;
+    width: 300px;
+    margin: auto;
+}
+.my-form input {
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid rgb(239, 207, 207);
+    border-radius: 6px;
+}
+.toda-largura {
+    width: 100%;
+    margin: 6px 0px;
+}
+.my-form-group {
+    margin-bottom: 6px;
+}
+h3 {
+    text-align: center;
+
+}

@@ -1,0 +1,38 @@
+p {
+    color: yellowgreen;
+    font-size: 15px;
+    text-decoration: underline;
+}
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: aliceblue;
+}
+
+
+#meu-h1 {
+    font-weight: 100;
+}
+
+.cabecalho{
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+    border-radius: 125px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: yellow;
+}
