@@ -1,0 +1,37 @@
+h3 {
+    background-color: red;
+}
+.box1{
+    background-color: yellow;
+    padding: 16px; /*espaçamento interno*/
+    margin: 10px; /*espaçamento externo*/
+}
+.box2{
+    background-color: green;
+    padding: 8px 20px 4px 10px; /*TOPO 12HS- DIREITA 3HS - BAIXO 6HS - ESQUERDA 9HS (*/
+    margin: 8px 10px 20px 40px ;
+}
+.box3{
+    background: linear-gradient(red,blue );
+    border: 2px dotted turquoise;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.box4{
+    background-color: gray;
+    width: 400px;
+    padding: 20px; /*a box fica maior pois o padding soma com o width*/
+    border: 5px solid greenyellow;
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('https://soulcodeacademy.org/assets/images/logo/light-logo.png');
+    background-repeat: no-repeat;
+    
+}

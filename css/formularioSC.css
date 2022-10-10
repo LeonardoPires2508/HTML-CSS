@@ -1,0 +1,25 @@
+body {
+    background-color: #0f637a;
+}
+
+#cabecalho {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.my-form {
+    background-color: #007aff;
+    color: aliceblue;
+    text-align: center;
+    width: 300px;
+    
+}
+.my-form-group {
+    text-align: left;
+}
+.my-botton {
+    background-color: yellow;
+    border: #0f637a;
+}

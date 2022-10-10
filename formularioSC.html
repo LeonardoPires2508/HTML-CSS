@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/formularioSC.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body style="background-color:#0f637a;">
+    <head>
+        <div id="cabecalho">
+            <img id="logo" src="img/light-logo.png" width="200" style="">
+            <h4>Bem-Vindo(a)! Entre com seu e-mail e senha</h4>
+        </div>
+        
+    </head>
+    <main>
+        <section>
+            <form class="my-form">
+                <div class="my-form-group">
+                    <label for="campoEmail">E-mail</label><br>
+                    <input id="campoEmail" name="campoEmail" type="email" placeholder="email@exemplo.com" required />
+                </div>
+                <div class="my-form-group">
+                    <label for="campoSenha">Senha</label><br>
+                    <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" minlength="6" required/>
+                </div>
+                <br>
+                <button class="my-botton">Login</button>
+                <div class="logar">
+                    <input id="manterConexao" type="checkbox" name="manterConexao" required>
+                    <label for="manterConexao">Continuar conectado?</label>
+                </div>
+            </form>
+        </section>
+        <hr/>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/athletico-pr.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/bragantino.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/fortaleza.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
